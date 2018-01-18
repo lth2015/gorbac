@@ -1,0 +1,15 @@
+p, guest, org, /swagger/, GET
+p, user, org, /swagger/, GET
+p, guest, org, /api/auth/register/code/, POST
+p, user, org, /api/auth/register/code/, POST
+p, guest, org, /api/auth/register/, POST
+p, user, org, /api/auth/register/, POST
+p, guest, org, /api/auth/login/, POST
+p, user, org, /api/auth/login/, POST
+p, guest, org, /api/auth/ticket/*/refresh, GET
+p, user, org, /api/auth/ticket/*/refresh, GET
+p, user, org, /api/auth/ticket/*, GET
+p, guest, org, /api/auth/lostpwd/code/, POST
+p, user, org, /api/auth/lostpwd/code/, POST
+p, guest, org, /api/auth/lostpwd/, POST
+p, user, org, /api/auth/lostpwd/, POST
